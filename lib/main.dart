@@ -38,9 +38,11 @@ class ResponsiveLayout extends StatelessWidget {
 }
 
 class MobileView extends StatelessWidget {
+  const MobileView({super.key});
+
   @override
   Widget build(BuildContext context) {
-    return Center(
+    return const Center(
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
@@ -57,9 +59,11 @@ class MobileView extends StatelessWidget {
 }
 
 class TabletView extends StatelessWidget {
+  const TabletView({super.key});
+
   @override
   Widget build(BuildContext context) {
-    return Center(
+    return const Center(
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
@@ -76,9 +80,11 @@ class TabletView extends StatelessWidget {
 }
 
 class DesktopView extends StatelessWidget {
+  const DesktopView({super.key});
+
   @override
   Widget build(BuildContext context) {
-    return Center(
+    return const Center(
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
